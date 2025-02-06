@@ -24,6 +24,8 @@ Slides and notes for a presentation about ggtime at JSM 2025 (XX August
 Effective use of statistical graphics in exploratory time series analysis helps to uncover temporal patterns needed to accurately specify models.
 &#10;> Visual idioms -> temporal grammar
 While several commonly used plots exist for visualizing time series, little work has been done to formalize them within a unified grammar of temporal graphics.
+&#10;> Grammar elements
+Decomposing traditional time series graphics such as time plots and seasonal plots into modular grammatical elements provides the flexibility needed to clearly visualize multiple seasonality, cycles, and other complex patterns.
 &#10;> Calendrical patterns are central to the temporal grammar
 Temporal data visualization requires special handling to highlight patterns shaped by calendar systems, much like the nuances of spatial, graph, and uncertainty visualization.
 &#10;> Specific examples from the grammar
@@ -35,18 +37,22 @@ In this talk, I will introduce the grammar of temporal graphics as implemented i
 Effective use of statistical graphics in exploratory time series
 analysis helps to uncover temporal patterns needed to accurately specify
 models. While several commonly used plots exist for visualizing time
-series, little work has been done to formalize them within a unified
-grammar of temporal graphics. Temporal data visualization requires
-special handling to highlight patterns shaped by calendar systems, much
-like the nuances of spatial, graph, and uncertainty visualization.
+series, little work has been done to formalize them into a unified
+grammar of temporal graphics. Decomposing traditional time series
+graphics such as time plots and seasonal plots into modular grammatical
+elements provides the flexibility needed to clearly visualize multiple
+seasonality, cycles, and other complex patterns.
 
-The proposed grammar incorporates calendrical concepts to visually align
-time points at different granularities and timezones, warp time to
-standardize irregular cyclical durations, and wrap time into
-hierarchical calendar layouts. In this talk, I will introduce the
-grammar of temporal graphics as implemented in the ggtime R package, and
-demonstrate how these grammatical elements can be combined to create
-both familiar and novel visualizations of complex time series patterns.
+Temporal data visualization requires special handling to highlight
+patterns shaped by calendar systems, much like the nuances of spatial,
+graph, and uncertainty visualization. The proposed grammar incorporates
+calendrical concepts to visually align time points at different
+granularities and timezones, warp time to standardize irregular cyclical
+durations, and wrap time into hierarchical calendar layouts. In this
+talk, I will introduce the grammar of temporal graphics as implemented
+in the ggtime R package, and demonstrate how these grammatical elements
+can be combined to create both familiar and novel visualizations of
+complex time series patterns.
 
 #### Structure
 
