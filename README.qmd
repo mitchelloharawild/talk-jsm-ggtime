@@ -72,4 +72,4 @@ Temporal data visualization requires special handling to highlight patterns shap
 
 ### Format
 
-* 15 minutes (+-questions?)
+* 20 minutes (+-questions?)

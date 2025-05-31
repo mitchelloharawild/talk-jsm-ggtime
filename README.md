@@ -88,4 +88,4 @@ complex time series patterns.
 
 ### Format
 
-- 15 minutes (+-questions?)
+- 20 minutes (+-questions?)
