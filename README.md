@@ -56,11 +56,35 @@ complex time series patterns.
 
 #### Structure
 
-- Introduction
-- Common time series plots
+- Introduction and background
+  - Time plots: the basics of time series visualization
+  - Time series patterns: trend, seasonality, cycles, holidays, events,
+    …
+  - Visualizing seasonality requires more than simply treating time
+    continuously
+  - Seasonal plots and sub-series plots (time within and across
+    ‘seasons’)
+  - Outlink to discussion posts by authors about plot helper monoliths
 - A grammar of temporal graphics
-- Re-expressing common time series plots
-- Remixing elements to create new time series plots
+  - Re-characterizing these plot helpers into modular grammatical
+    elements
+  - Some discussion on visualization with grammars vs helpers
+    (flexible/complex)
+  - Design goals and philosophy of ggtime
+    - Calendars as the core concept
+    - Focus on the temporal dimension (outlink to earlier ggdist talk)
+  - ggtime in ggplot2’s layered grammar of graphics
+    - Overview of the layered grammar of graphics (data, aes, geom,
+      stat, facet, coord)
+    - Data: Briefly in calcal/mixtime
+    - Aes/Geom: `geom_time_line()`, and other `geom_time_***()`
+      geometries
+    - Stat: Visually adjust time into civil/absolute, warping cycles,
+      and aligning granularities
+    - Coord/Facet: Easy calendar layouts
+- Using ggtime
+  - Re-expressing common time series plots with the grammar
+  - Remixing elements to create new time series plots
 
 ### Format
 
