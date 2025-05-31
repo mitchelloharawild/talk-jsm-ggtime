@@ -4,7 +4,7 @@ format: gfm
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-# A grammar of temporal graphics
+# ggtime: Visualizing time with a grammar of temporal graphics
 <!-- Doesn't have enough stats, be more declarative // on-the-nose.. Improving viz of time series with... -->
 
 
