@@ -48,6 +48,8 @@ Temporal data visualization requires special handling to highlight patterns shap
 
 #### Structure
 
+Slide progression:
+
 * Introduction and background
   * Time plots: the basics of time series visualization
   * Time series patterns: trend, seasonality, cycles, holidays, events, ...
@@ -69,6 +71,11 @@ Temporal data visualization requires special handling to highlight patterns shap
 * Using ggtime
   * Re-expressing common time series plots with the grammar
   * Remixing elements to create new time series plots
+  
+Presentation narratives:
+
+* Primary: Introducing ggtime
+* Secondary: Plot helpers and grammar extensions
 
 ### Format
 
