@@ -10,7 +10,7 @@
 
 <!-- badges: end -->
 
-Slides and notes for a presentation about ggtime at JSM 2025 (XX August
+Slides and notes for a presentation about ggtime at JSM 2025 (5th August
 2025).
 
 <!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=> -->
@@ -56,6 +56,8 @@ complex time series patterns.
 
 #### Structure
 
+Slide progression:
+
 - Introduction and background
   - Time plots: the basics of time series visualization
   - Time series patterns: trend, seasonality, cycles, holidays, events,
@@ -85,6 +87,11 @@ complex time series patterns.
 - Using ggtime
   - Re-expressing common time series plots with the grammar
   - Remixing elements to create new time series plots
+
+Presentation narratives:
+
+- Primary: Introducing ggtime
+- Secondary: Plot helpers and grammar extensions
 
 ### Format
 
